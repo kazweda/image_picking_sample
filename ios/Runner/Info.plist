@@ -4,6 +4,14 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<!-- ここから -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo Library Access</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Camera Library Access</string>
+	<key>NSMicrophoneUsageDescription</key>
+    <string>Microphone Access</string>
+    <!-- ここまで、ギャラリーとカメラのxmlを追加する -->
 	<key>CFBundleDisplayName</key>
 	<string>Image Picking Sample</string>
 	<key>CFBundleExecutable</key>
